@@ -1,0 +1,33 @@
+# Site settings
+title: Anthony Leonardi
+email: anthony.leonardi+website@gmail.com
+url: http://ajleonardi.co
+description: "From running successful technical sales campaigns to building products and solutions, Anthony Leonardi has 15 years of experience solving problems at the world's largest organizations."
+lp-bg: /img/mwm-x2.jpg
+og-image: /img/og-large.jpg
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  primary-light: '#222222'
+  links: '#219ab3'
+  text-on-black: '#858585'
+
+# Footer settings
+footer: Anthony Leonardi
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/anthonyleonardi
+  - title: instagram
+    url: https://instagram.com/AJLeonardi
+  - title: twitter
+    url: https://twitter.com/AJLeonardi
+  - title: github
+    url: https://github.com/AJLeonardi
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
