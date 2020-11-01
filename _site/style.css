@@ -31,7 +31,7 @@ h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    /*font-weight: 700;*/
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
@@ -39,7 +39,6 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
-    color: #858585;
 }
 
 @media(min-width:767px) {
@@ -65,10 +64,6 @@ a:focus {
 
 .light {
     font-weight: 400;
-}
-
-.alt-bkg{
-    background-color: #222222;
 }
 
 .navbar-custom {
@@ -103,7 +98,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active {
-    outline: nonte;
+    outline: none;
     background-color: rgba(255,255,255,.3);
 }
 
@@ -148,7 +143,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/mwm-x2.jpg) no-repeat top center scroll;
+    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -167,8 +162,6 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-    color: #ffffff;
-    text-shadow: 0px 0px 13px rgba(150, 150, 148, 1);
 }
 
 @media(min-width:767px) {
@@ -183,7 +176,6 @@ a:focus {
 
     .intro .intro-body .intro-text {
         font-size: 25px;
-        color: #ffffff;
     }
 }
 
@@ -227,7 +219,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {
+@-webkit-keyframes pulse {    
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -244,7 +236,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {
+@-moz-keyframes pulse {    
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -263,7 +255,6 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .download-section {
@@ -286,8 +277,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 125px;
-        padding-bottom: 200px
+        padding-top: 200px;
     }
 
     .download-section {
@@ -351,7 +341,6 @@ ul.banner-social-buttons li {
 
 footer {
     padding: 50px 0;
-    margin-top: 10px;
 }
 
 footer p {
@@ -380,50 +369,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
-
-/*  --  Elements for the CV area  --  */
-.vert-element{
-  text-align: left;
-  padding: 10px 15px;
-  border-left: 7px solid #219ab3;
-  /*border-bottom: 1px solid #219ab3;*/
-  margin: 20px 10px;
-
-}
-
-.vert-element>.sub-header{
-  font-size: 115%;
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-.vert-element>h3{
-  margin-bottom:0px;
-}
-.vert-element>ul{
-  color: #858585;
-}
-.vert-element>ul>li>p{
-  margin-bottom: 0px;
-  padding: 2px 0px;
-    font-size: 120%;
-}
-
-/*  --  Elements for the Projects and Interests area  --  */
-.horz-element{
-  text-align: left;
-  padding: 15px 10px;
-  border-top: 7px solid #219ab3;
-  margin: 20px 20px;
-
-}
-
-.horz-element>.sub-header{
-  font-size: 115%;
-  color: #fff;
-}
-
-.horz-element>h3{
-  /*margin-bottom:0px;*/
 }
